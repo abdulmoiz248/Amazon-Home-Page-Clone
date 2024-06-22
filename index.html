@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amazon.com</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="StyleSheet" href="style.css"> 
+</head>
+<body>
+  <header>
+    <div id="navbar">
+    
+        <div >
+          <a href="https://www.amazon.com/ref=nav_logo" ><img class="photo" src="data:image/png;base64,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"></a>
+        </div>
+
+        <div class="nav-add">
+          <div class="dev">Deliever to</div>
+          <div class="loc">
+            <i class="fa-solid fa-location-dot"></i>
+            <p></p>
+            <p id="pak"> Pakistan</p>
+          </div>
+        </div>  
+        
+        <div class="nav-search">
+          <select class="nav-select">
+            <option>All</option>            
+          </select>
+          <input placeholder="Search Amazon" class="search-input">
+          <i class="fa-solid fa-magnifying-glass" id="searchglass"></i>
+        </div>
+       
+        <div class="nav-signin">
+          <p class="first">Hello,Sign in</p>
+          <p class="second">Account & Lists</p>
+        </div>
+
+        <div class="nav-re-o">
+          <p class="first">Returns</p>
+          <p class="second"> & Orders</p>
+        </div>
+
+        <div class="cart">
+          <i class="fa-solid fa-cart-shopping"></i>
+          <p class="cart-text">Cart</p>
+        </div> 
+
+
+    </div>
+
+    <div class="below-nav">
+       <div class="all-div">
+        <i class="fa-solid fa-bars"></i>
+        <p class="all"> All</p>
+       </div>
+
+       <div class="right-to-all">
+        <div class="todaydeal">Today's Deal</div>
+        <div class="customerservice">Customer Services</div>
+        <div class="registery">Registery</div>
+        <div class="giftcards">Gift Cards</div>
+        <div class="sell">Sell</div>
+       </div>
+    </div>
+  </header>
+
+  <div class="hero-sec">
+
+  </div>
+
+  <main class="shop">
+      <div class="box1 box" >
+
+       <div class="box-content">
+        <h2>Gaming accessories</h2>
+        <img src="/1.jpg" class="img">Headset</img>
+       </br>
+        <a href="">see more</a>
+       </div>
+      
+      </div> 
+      <div class="box2 box">
+        <div class="box-content">
+          <h2>Shop deals in Fashion</h2>
+          <img src="https://images-na.ssl-images-amazon.com/images/G/01/AMAZON_FASHION/2022/SITE_FLIPS/SPR_22/GW/DQC/DQC_APR_TBYB_W_BOTTOMS_1x._SY116_CB624172947_.jpg" class="img">Jeans under $50</img>
+         </br>
+          <a href="">see more</a>
+         </div>
+      </div>
+      <div class="box3 box">
+        <div class="box-content">
+          <h2>Deals in PCs</h2>
+          <img src="https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Events/2023/EBF23/Fuji_Desktop_Single_image_EBF_1x_v1._SY304_CB573698005_.jpg" class="img">
+         </br>
+        </br>
+          <a href="">shop now</a>
+         </div>
+      </div>   
+      <div class="box4 box">
+        <div class="box-content">
+          <h2>Refresh your space</h2>
+          <img src="https://images-na.ssl-images-amazon.com/images/G/01/launchpad/2023/Gateway/January/DesktopQuadCat_186x116_LP-HP_B08MYX5Q2W_01.23._SY116_CB619238939_.jpg" class="img">Dinning</img>
+         </br>
+          <a href="">see more</a>
+         </div>
+      </div>
+      
+      <div class="box4 box" >
+
+        <div class="box-content">
+         <h2>Amazon Gadget Store</h2>
+         <img src="https://m.media-amazon.com/images/I/41aF1Kpc1iL._SY160_.jpg" class="img">Smart Phones</img>
+        </br>
+         <a href="">see more</a>
+        </div>
+       
+       </div> 
+       <div class="box5 box">
+         <div class="box-content">
+           <h2>Toys under $25</h2>
+           <img src="https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Events/2023/EBF23/Fuji_Desktop_Single_image_EBF_1x_v3._SY304_CB573698005_.jpg" class="img">
+          </br>
+        </br>
+           <a href="">see more</a>
+          </div>
+       </div>
+       <div class="box6 box">
+         <div class="box-content">
+           <h2>Beauty Seals under $25</h2>
+           <img src="https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Events/2023/EBF23/Fuji_Desktop_Single_image_EBF_1x_v5._SY304_CB573698005_.jpg" class="img">
+          </br>
+         </br>
+           <a href="">shop now</a>
+          </div>
+       </div>   
+       <div class="box7 box">
+         <div class="box-content">
+           <h2>Home Decor under $25</h2>
+           <img src="https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Events/2023/EBF23/Fuji_Desktop_Single_image_EBF_1x_v6._SY304_CB573698005_.jpg" class="img">
+          </br>
+        </br>
+           <a href="">see more</a>
+          </div>
+       </div>            
+      </div>
+    
+  </main>
+
+  <footer>
+    <div class="back-top">
+      Back to Top
+    </div>
+
+    <div class="panel2">
+      <ul class="fsec1 sec">
+        <p>Get to Know Us</p> 
+         <a>Careers</a>
+         <a>Blog</a>
+         <a>About Amazon</a>
+         <a>Investor Relations</a>
+         <a>Amazon Devices</a>
+         <a>Amazon Science</a>
+       </ul>
+
+       <ul class="fsec2 sec">
+        <p>Make Money with us</p> 
+         <a>Sell products on Amazon</a>
+         <a>Sell on Amazon Business</a>
+         <a>   Sell apps on Amazon</a>
+         <a> Become an Affiliate</a>
+         <a>Advertise Your Products</a>
+         <a>Self-Publish with Us</a>
+       </ul>
+
+    </div>
+    
+    <div class="panel3">
+      <img class="photo1" src="data:image/png;base64,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">
+     
+     <p class="p3-text">English</p>
+     <p class="p3-text">US Dollar</p>
+     <p class="p3-text">United States</p>
+    </div>
+
+      <div class="end">
+        <div class="end1">
+          <a class="enda">Conditions of Use</a>
+          <a class="enda"> Privacy Notice</a>
+          <a class="enda"> Consumer Health Data Privacy Disclosure</a>
+          <a class="enda"> Your Ads Privacy Choices</a>
+        </div>
+
+        <div class="end2">
+          © 1996-2024, Amazon.com, Inc. or its affiliates
+        </div>
+      </div>
+
+  </footer>
+</body>
+</html>
